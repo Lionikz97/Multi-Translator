@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#1b6535</color>
+    <color name="purple_500">#3a6b35</color>
+    <color name="purple_700">#1B5E20</color>
+    <color name="teal_200">#e1dd72</color>
+    <color name="teal_700">#7CB342</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="appIconColor">#801B6535</color>
+
+    <color name="spinnerBorderColor">@color/md_grey_700</color>
+
+    <color name="background">@color/md_white_1000</color>
+    <color name="foreground">#de000000</color>
+    <color name="foregroundSecond">#99000000</color>
+    <color name="foregroundDisable">#61000000</color>
+    <color name="alert">#76FF03</color>
+
+    <color name="dialogOutside">#88000000</color>
+    <color name="borderlessButtonText">#8BC34A</color>
+    <color name="listItemChecked">#9CCC65</color>
+
+    <color name="circlingView_background">#66000000</color>
+    <color name="circlingView_circlingBox">#5976FF03</color>
+    <color name="circlingView_box">#8776FF03</color>
+    <color name="circlingView_helperText">@color/white</color>
+    <color name="circlingView_progressBorder">#33691E</color>
+
+    <color name="resultView_recognizedBoundingBoxes">#8800FF00</color>
+
+</resources>

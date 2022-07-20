@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translation target codes for Google Translate. -->
+    <!-- The elements in this array must match to the translationtargetlanguagenames_google array. -->
+    <string-array name="google_MLKit_translationLangCode_iso6391" translatable="false">
+
+        <item>ar</item> <!-- Arabic -->
+
+        <item>en</item> <!-- English -->
+
+        <item>ms</item> <!-- Malay -->
+
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The elements in this array must match to the translationtargetlanguagenames_google array. -->
+    <string-array name="lang_ocr_tesseract_display_code_iso6391" translatable="false">
+
+        <item>ar</item> <!-- Arabic -->
+
+        <item>en</item> <!-- English -->
+
+        <item>ms</item> <!-- Malay -->
+
+    </string-array>
+</resources>

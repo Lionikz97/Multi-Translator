@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="versionCodes" translatable="false">
+        <item>1.0.0</item>
+
+    </string-array>
+
+    <string name="version_1_0_0">● New App been develop </string>
+
+</resources>

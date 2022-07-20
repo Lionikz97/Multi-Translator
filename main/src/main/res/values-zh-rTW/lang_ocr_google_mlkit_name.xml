@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang_ocr_google_mlkit_name">
+        <!-- table (Supported languages) -->
+
+        <item>英語</item> <!-- en -->
+
+        <item>馬來語</item> <!-- ms -->
+
+    </string-array>
+</resources>

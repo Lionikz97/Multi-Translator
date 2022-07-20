@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The elements in this array must match to the languagenames array. -->
+    <string-array name="lang_ocr_tesseract_code_iso6393" translatable="false">
+
+        <item>ara</item> <!-- Arabic -->
+
+        <item>eng</item> <!-- English -->
+
+        <item>msa</item> <!-- Malay -->
+    </string-array>
+</resources>

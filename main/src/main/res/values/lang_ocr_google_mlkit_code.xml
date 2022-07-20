@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang_ocr_google_mlkit_code_bcp_47">
+        <!-- table (Supported languages) -->
+
+        <item>en</item> <!-- English -->
+
+        <item>ms</item> <!-- Malay -->
+
+    </string-array>
+</resources>

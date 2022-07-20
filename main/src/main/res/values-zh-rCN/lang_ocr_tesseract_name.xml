@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lang_ocr_tesseract_name">
+
+        <item>阿拉伯语</item>
+
+
+        <item>荷兰文</item>
+
+        <item>马其顿文</item>
+
+    </string-array>
+</resources>

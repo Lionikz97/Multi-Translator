@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="multi.translator.onscreenocr"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        tools:node="remove" />
+
+    <queries>
+        <package android:name="com.google.android.apps.translate" />
+
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".CoreApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_shadow"
+        android:label="Multi Translator"
+        android:roundIcon="@drawable/ic_launcher_shadow"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EverTranslator">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_application_id" />
+
+        <activity
+            android:name=".pages.launch.LaunchActivity">
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.EverTranslator.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".floatings.ViewHolderService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+
+        <activity
+            android:name=".pages.setting.SettingActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:noHistory="true" />
+
+        <service
+            android:name=".utils.QuickTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_for_notify"
+            android:label="Multi Translator"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
